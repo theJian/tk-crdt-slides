@@ -78,7 +78,7 @@ addEventListener("load", () => {
       fontSize = height;
     sc.style.width = `${width}px`;
     sc.style.height = `${height}px`;
-    slideDiv.style.padding = `${padding}px`;
+    // slideDiv.style.padding = `${padding}px`;
     if (getComputedStyle(slideDiv).display === "grid") slideDiv.style.height = `${height - padding * 2}px`;
     for (let step of [100, 50, 10, 2]) {
       for (; fontSize > 0; fontSize -= step) {
